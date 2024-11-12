@@ -1,0 +1,130 @@
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #006400; /* 緑 */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+}
+
+.product button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #004d00;
+}
+
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ジャンルから探すセクションを左寄せ */
+.genre-search {
+    margin-top: 20px;
+    text-align: left; /* 左寄せ */
+}
+
+.genre-search h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.genre-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* 緑色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.genre-button:hover {
+    background-color: #45a049; /* ホバー時の色変更 */
+}
+
